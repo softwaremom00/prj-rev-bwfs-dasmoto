@@ -1,0 +1,42 @@
+html{
+  font-family: Helvetica;
+}
+
+h1 {
+
+  background-image: url("../images/pattern.jpeg");
+  /* because it is read from style.css in the css directory.. the directory must be relative to that */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: khaki;
+  font-size: 100px;
+  text-align: center;
+}
+
+p strong {
+  font-weight: bold;
+  color: blue;
+}
+
+
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  color:white;
+}
+
+.brushes h2
+{
+  background-color: mediumspringgreen;
+
+}
+
+.frames h2{
+  background-color: lightcoral;
+}
+
+.paint h2{
+  background-color: skyblue;
+}
